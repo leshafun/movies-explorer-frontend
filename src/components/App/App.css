@@ -1,0 +1,6 @@
+.app {
+  color: rgba(0, 0, 0, 1);
+  font-family: "inter", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  min-width: 320px;
+}

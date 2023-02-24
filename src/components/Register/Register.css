@@ -1,0 +1,163 @@
+.register {
+  width: 100%;
+}
+
+.register__container {
+  max-width: 396px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.register__logo {
+  width: 38px;
+  height: 38px;
+  transition: all 0.5s linear;
+  margin-top: 70px;
+}
+
+.register__logo:hover {
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+.register__greeting {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.register__label-name {
+  color: rgba(160, 160, 160, 1);
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.register__input {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  background-color: rgba(244, 244, 244, 1);
+  border: none;
+  border-radius: 8px;
+  height: 46px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.register__input:last-of-type {
+  margin-bottom: 10px;
+}
+
+.register__input-email {
+  font-weight: 500;
+}
+
+.register__input-error {
+  color: rgba(238, 52, 101, 1);
+  font-size: 10px;
+  line-height: 1.21;
+  font-weight: 400;
+}
+
+.register__input-error_active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.register__input-invalid {
+  color: rgba(238, 52, 101, 1);
+}
+
+.register__button {
+  height: 45px;
+  background-color: rgba(52, 86, 243, 1);
+  border-radius: 3px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 69px;
+  transition: all 0.5s linear;
+}
+
+.register__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.register__link {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+}
+
+.register__link-title {
+  margin: 0;
+  color: rgba(160, 160, 160, 1);
+}
+
+.register__link-signin {
+  text-decoration: none;
+  color: rgba(52, 86, 243, 1);
+  padding-left: 6px;
+	transition: all 0.5s linear;
+}
+
+.register__link-signin:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.register__logo {
+		margin-top: 232px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.register__container {
+		max-width: 260px;
+	}
+	
+	.register__logo {
+		margin: 56px auto 0;
+	}
+	
+	.register__greeting {
+		margin-top: 50px;
+		text-align: center;
+	}
+	
+	.register__form {
+		margin-top: 80px;
+	}
+	
+	.register__button {
+		margin-top: 157px;
+		font-size: 12px;
+	}
+	
+	.register__link {
+		margin-top: 14px;
+		font-size: 12px;
+	}
+}
+
