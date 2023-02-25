@@ -10,7 +10,6 @@ import Profile from '../Profile/Profile.jsx';
 import Register from '../Register/Register.jsx';
 import Login from '../Login/Login.jsx';
 import SavedMovies from '../SavedMovies/SavedMovies.jsx';
-import NavBar from '../NavBar/NavBar.jsx';
 
 function App() {
 	const [isLoggedIn] = useState(true);
@@ -56,14 +55,6 @@ function App() {
 				/>
 				<Route path="/signup" element={<Register />} />
 				<Route path="/signin" element={<Login />} />
-				<Route
-					path="/burger"
-					element={
-						<>
-							<NavBar />
-						</>
-					}
-				/>
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</div>

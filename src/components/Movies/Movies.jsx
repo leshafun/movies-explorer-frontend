@@ -7,7 +7,7 @@ import film1 from '../../images/film1.jpg';
 
 function Movies() {
 	return (
-		<section className="movies">
+		<main className="movies">
 			<SearchForm />
 			<MoviesCardList>
 				<MoviesCard
@@ -25,7 +25,7 @@ function Movies() {
 				<button className="movies__more-button">Ещё</button>
 			</div>
 			<Footer />
-		</section>
+		</main>
 	);
 }
 

@@ -54,8 +54,7 @@
   line-height: 1.2;
   font-weight: 400;
   text-align: center;
-  margin-top: 220px;
-  margin-bottom: 0;
+	margin: 220px auto 0;
 }
 
 .profile__log-out {
@@ -64,7 +63,7 @@
   font-weight: 500;
   text-align: center;
   color: rgba(238, 52, 101, 1);
-  margin-top: 16px;
+	margin: 16px auto 70px;
 }
 
 @media screen and (max-width: 768px) {

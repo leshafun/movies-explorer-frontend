@@ -4,7 +4,7 @@ import logo from '../../images/logo.svg';
 
 function Login() {
 	return (
-		<section className="login">
+		<main className="login">
 			<div className="login__container">
 				<Link to="/" className="login__logo">
 					<img src={logo} alt="Логотип" />
@@ -39,7 +39,7 @@ function Login() {
 					</Link>
 				</div>
 			</div>
-		</section>
+		</main>
 	);
 }
 

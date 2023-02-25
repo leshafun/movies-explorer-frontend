@@ -1,13 +1,10 @@
 .navigation {
-  width: 1096px;
+  width: 1102px;
   height: 74px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navigation__button {
-	display: none;
+	margin-left: 44px;
 }
 
 .navigation__movies-links {

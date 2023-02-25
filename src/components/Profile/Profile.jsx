@@ -3,7 +3,7 @@ import './Profile.css';
 function Profile(props) {
 	const { name } = props;
 	return (
-		<section className="profile">
+		<main className="profile">
 			<div className="profile__container">
 				<h1 className="profile__greeting">Привет, {name}!</h1>
 				<div className="profile__info">
@@ -17,7 +17,7 @@ function Profile(props) {
 				<p className="profile__edit">Редактировать</p>
 				<p className="profile__log-out">Выйти из аккаунта</p>
 			</div>
-		</section>
+		</main>
 	);
 }
 

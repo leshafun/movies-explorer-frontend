@@ -179,3 +179,14 @@
 		line-height: 1.15;
 	}
 }
+
+@media screen and (max-width: 420px) {
+	.about-project__info {
+		margin-bottom: 60px;
+	}
+	
+	.about-project__scheme {
+		margin-top: 0;
+		margin-bottom: 70px;
+	}
+}
