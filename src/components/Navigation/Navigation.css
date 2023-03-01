@@ -1,0 +1,82 @@
+.navigation {
+  width: 1102px;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	margin-left: 44px;
+}
+
+.navigation__movies-links {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.navigation__movies {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  margin-right: 16px;
+  transition: 0.35s linear;
+}
+
+.navigation__movies:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navigation__saved-movies {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: 0.35s linear;
+}
+
+.navigation__saved-movies:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navigation__profile {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__profile-link {
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: 0.35s linear;
+}
+
+.navigation__profile-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navigation__profile-icon-link {
+  height: 30px;
+  width: 26px;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 4px;
+}
+
+.navigation__profile-icon {
+  width: 12px;
+  height: 14px;
+  padding-top: 8px;
+  padding-left: 7.25px;
+  transition: 0.35s linear;
+}
+
+.navigation__profile-icon:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
